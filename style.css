@@ -1,0 +1,158 @@
+/* navbar section start */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#navbarSection{
+display: flex;
+background-color:#328873;
+color: white;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+}
+#logoDiv{
+font-size: 24px;
+}
+ul{
+display: flex;
+align-items: center;
+gap: 50px;
+
+}
+li{
+list-style: none;
+}#colorFull{
+color:#00D916;
+}
+/* navbar section end */
+/* bannar section start */
+#bannarSection{
+background-image: url(./business-people-holding-word-careers\ 1.png);
+height: 90vh;
+background-repeat: no-repeat;
+position: relative;
+background-size: cover;
+}
+/* bannar section end */
+/* about section start */
+#aboutSection{
+padding: 30px;
+background-color: #E9E9E9;
+}
+#aboutSection>h1{
+font-size: 44px;
+}
+#colorFullName{
+color:#00D916;
+}
+#aboutMainDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+#aboutTextDiv>p{
+text-align: justify;
+font-size: 25px;
+line-height: 32px;
+}
+#aboutTextDiv>button{
+background-color: #00D916;
+padding: 10px 15px;
+border: none;
+border-radius: 5px;
+color: white;
+box-shadow: 0 0 10px 0 gray;
+}
+#aboutTextDiv>button:hover{
+background-color: green;
+transition: 1s;
+}
+#aboutImgDiv>img{
+height: 500px;
+width: 500px;
+}
+/* shope section start */
+#shopeSection{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+gap: 20px;
+align-items: center;
+padding: 30px;
+}
+#mainDiv{
+display: flex;
+display: flex;
+justify-content: space-between;
+gap: 50px;
+align-items: center;
+
+padding: 30px;
+}
+.shopeSectionCard{
+background-color: #00D916;
+}
+
+.cardTextDiv>button{
+background-color: black;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+}
+.cardTextDiv{
+
+padding: 15px 20px;
+}
+.cardImgDiv>img{
+width: 400px;
+height: 300px;
+}
+/* contact section start */
+#contactSection{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 50px;
+background-color: #D9D9D9;
+}
+
+form{
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 10px;
+}
+#submitBtn{
+background-color: #00D916;
+border: none;
+border-radius: 5px;
+font-weight: 200px;
+color: white;
+box-shadow: 0 0 15px 0 gray;
+font-size: 15px;
+}
+input{
+padding: 15px;
+border-radius: 5px;
+border: none;
+}
+.buttonDiv>button{
+padding: 10px 20px;
+background-color: #00D916;
+border: none;
+border-radius: 5px;
+color: white;
+box-shadow: 0 0 15px 0 gray;
+}
+/* contact section end */
+#footerSectionDiv{
+background-color: black;
+text-align: center;
+color: white;
+padding: 20px;
+}
